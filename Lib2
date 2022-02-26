@@ -248,6 +248,7 @@ function LibraryV2.UI(Name)
                 Tween(Blur, {Size = 0}, 0.5, true)
                 Library.Debounce = false
                 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, true)
+		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
             end
         end
     }
